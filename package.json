@@ -1,0 +1,60 @@
+{
+  "name": "iview",
+  "version": "4.3.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --open",
+    "serve": "vue-cli-service serve",
+    "stage": "vue-cli-service build --mode stage",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.0",
+    "abp-web-resources": "^3.8.2",
+    "axios": "^0.18.0",
+    "famfamfam-flags": "^1.0.0",
+    "file-saver": "^2.0.2",
+    "view-design": "^4.0.0",
+    "js-cookie": "^2.2.0",
+    "mockjs": "^1.0.1-beta3",
+    "qs": "^6.7.0",
+    "register-service-worker": "^1.0.0",
+    "tree-table-vue": "^1.1.0",
+    "vue": "^2.5.17",
+    "vue-class-component": "^6.0.0",
+    "vue-print-nb": "^1.5.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "xlsx": "^0.14.5"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/js-cookie": "^2.1.0",
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-pwa": "^3.0.4",
+    "@vue/cli-plugin-typescript": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "iview-area": "^1.6.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "script-loader": "^0.7.2",
+    "typescript": "^3.0.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

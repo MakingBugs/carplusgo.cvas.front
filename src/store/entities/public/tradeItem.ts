@@ -1,0 +1,41 @@
+import Entity from '../entity'
+
+export default class TradeItem extends Entity<number>{//对象档
+    id:number;
+    areaAuto:number;
+    fid:string;
+    fname:string;
+    sname:string;
+    incCdt:Date;
+    tel:string;
+    fax:string;
+    email:string;
+    addr:string;
+    zipCode:string;
+    cuser:number;
+    cdt:Date;
+    muser:number;
+    mdt:Date;
+    ver:number;
+    bank:string;
+    account:string;
+    source:string;
+    addrProvince:number;
+    addrCity:number;
+    addrArea:number;
+    taxId:string;
+    bankNo:string;
+    creditedName:string;
+    creditedTel:string;
+    orgCode:string;
+    mtel:string;
+    industryCode:string;
+    isSendInv:number;
+    bankName:number;
+    credentialNo:string;
+    iscollection:string;
+    remakeType:number;
+    isEas:number;
+    recallRecAuto:number;
+    lastOrderAuto:number;
+}
